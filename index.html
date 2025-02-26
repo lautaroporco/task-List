@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP GESTION DE TAREAS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <H1>Gestión de tareas</H1>
+
+    <input id="taskInput" type="text" placeholder="Agregue una tarea">
+    <button id="addTask">Agregar</button>
+
+    <div>
+        <button id="filterAll">Todas</button>
+        <button id="filterCompleted">Completadas</button>
+        <button id="filterPending">Pendientes</button>
+    </div>
+
+    <div id="taskList">
+        <!-- aqui iran las tareas agregadas -->
+    </div>
+
+    <p>Contador tareas completadas: <span id="completedCount">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
